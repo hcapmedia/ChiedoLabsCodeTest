@@ -1,3 +1,37 @@
+Further editing by: David Richards
+
+The following "Additional CSS" is required in WordPress to achieve the described result
+
+
+/* dRich CUSTOM CSS START */
+
+.site-info {
+	display: none;
+}
+
+.front-page-tri-column {
+	width:33.33%;
+	float: left;
+	padding: 15px;
+	margin-bottom:15px;
+}
+
+.front-page-tri-column:hover{
+	background-color:rgb(140,140,140)!important;
+	color: whitesmoke;
+}
+
+@media (max-width: 800px) {
+    .front-page-tri-column {
+        width: 100%;
+    }
+}
+
+/* dRich CUSTOM CSS END */
+
+
+--------------------------------------------------------------------------------------------------------------------
+
 === Twenty Seventeen ===
 Contributors: the WordPress team
 Requires at least: WordPress 4.7
